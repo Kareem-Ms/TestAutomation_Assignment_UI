@@ -1,0 +1,5 @@
+{
+  "userName": "Kareeem",
+  "password": "tester123",
+  "InvalidLoginErrorMsg": "Username and password do not match"
+}

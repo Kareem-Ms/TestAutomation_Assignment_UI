@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.utils.TestngListeners" />
+    </listeners>
+    <test verbose="2" preserve-order="true" parallel="classes" thread-count="2" name="Regression Tests">
+        <classes>
+            <class name="org.tests.CheckoutTest">
+                <methods>
+                    <include name="loginWithValidCredintials"/>
+                    <include name="addProductToCartSuccessfully"/>
+                    <include name="checkoutSuccessfully"/>
+                </methods>
+            </class>
+            <class name="org.tests.InvalidLoginTest">
+                <methods>
+                    <include name="loginWithInvalidCredintials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

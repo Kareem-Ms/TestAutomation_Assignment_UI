@@ -1,0 +1,15 @@
+{
+   "userName": "standard_user",
+  "password": "secret_sauce",
+  "numberOfProductsToBeAdded": "2",
+  "checkoutTitle": "Checkout: Your Information",
+  "checkoutInfo": {
+    "firstName": "mohamed",
+    "lastName": "Ahmed",
+    "postalCode": "123124"
+  },
+  "checkoutOverviewTitle": "Checkout: Overview",
+  "checkoutOverviewUrl": "https://www.saucedemo.com/checkout-step-two.html",
+  "confirmationTitle": "Thank you for your order!",
+  "confirmationMsg": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+}
