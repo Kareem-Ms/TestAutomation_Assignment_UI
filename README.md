@@ -20,7 +20,7 @@ I tried to implelement the test cases using cucumber but id doesn't work perfect
 - Open POM.xml file then reload that file to install dependecies
 - Go to src/main/resources/saucedemo.properties and modify the Browser name choosing between "chrome", "firefox"
 - Go to testng.xml file then execute the file
-- You can access allure report by executing the following command "allure serve" in terminal after running the code
+- You can access allure report by executing the following command "allure serve" in terminal after running the code or you can check "Test Report screenshots" folder it contains screenshots of the test report
 
 ## Code Explanation
 - in the src/main/java/org you will find a package called "pages" this package used to include all the pages that will be used in testing so for example the "LoginPage" class contain methods and locators that exist in login page in order to apply POM design pattern
