@@ -27,7 +27,8 @@ I tried to implelement the test cases using cucumber but id doesn't work perfect
 - in the src/main/java/org folder there is a package called "utils" this package contain helper classes like:
     - "ElementsAction" which is designed to handel find element after applying waits then make interactions with that element.
     - "PropertiesManager" this class contains methods to read from a property file which exist under src/main/resources to access something like BaseUrl and BrowserName
-    - "JsonFileManager" this class is used to read data from json file to inject these data in the test classes 
+    - "JsonFileManager" this class is used to read data from json file to inject these data in the test classes
+    - "TestingListeners" this class implements 2 interfaces "ISuiteListener" and "ITestListener" i manily used this for logging perpouse but it could be used for example to take screenshot on failure
 - in the src/test/java/org you will find a package called "testData" this package contains one json file per each test case to achieve isolation
 - in the src/test/java/org you will find a package called "tests" this package contain two test classes
   - "CheckoutTest.java" this class have mainly one E2E test scenario which is the checkout test scenario
